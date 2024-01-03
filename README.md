@@ -1,4 +1,4 @@
-# React Jokes App
+# MyJoke App
 
 A React app that fetches and displays random jokes from different categories using a Jokes API.
 
