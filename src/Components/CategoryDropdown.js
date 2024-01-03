@@ -4,7 +4,7 @@ import JokeDisplay from './JokeDisplay';
 import { useState, useEffect } from 'react';
 
 function CategoryDropdown() {
-  const [selected, setSelected]= useState(null)
+  // const [selected, setSelected]= useState(null)
   const url= `https://v2.jokeapi.dev/joke/Programming`
   const [loading, setLoading]= useState(true)
   const [error, setError]= useState(null)
@@ -21,7 +21,7 @@ function CategoryDropdown() {
 
         const data = await response.json();
         setData(data)
-        console.log(data)
+        // console.log(data)
       } catch (error) {
         setError(error.message);
       } finally {
@@ -54,7 +54,7 @@ function CategoryDropdown() {
       <Button>Get a joke!</Button>
       <br/>
       <br/>
-      <JokeDisplay/>
+      <JokeDisplay joke= {data.joke} setup= {data.setup} delivery= {data.delivery}/>
     </div>
   )
 }
