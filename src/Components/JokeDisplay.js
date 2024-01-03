@@ -9,7 +9,7 @@ function JokeDisplay({joke, setup, delivery}) {
       <div className='w-full'>
         <h1 className="display-4">Joke of the Day</h1>
         <br/>
-        <p id='joke' className='text-4xl font-medium text-white'>{joke}</p>
+        <p id='joke' className='text-4xl font-medium text-black'>{joke}</p>
       </div>
     );
   } else if (setup && delivery) {
@@ -19,14 +19,14 @@ function JokeDisplay({joke, setup, delivery}) {
       <div className='w-full'>
         <h1 className="display-4">Joke of the Day</h1>
         <br/>
-        <p id='joke' className='text-4xl font-medium text-white'>{combinedJoke}</p>
+        <p id='joke' className='text-4xl font-medium text-black'>{combinedJoke}</p>
       </div>
     );
   } else {
     // Handle the case where none of the expected props are present
     content = (
       <div className='w-full'>
-        <p>Select options to view available jokes</p>
+        <p className="display-6">Select options to view available jokes</p>
       </div>
     );
   }
