@@ -11,7 +11,7 @@ function CategoryDropdown() {
 
   return (
     <div>
-      <Form.Select aria-label="Default select example">
+      <Form.Select aria-label="Default select example" className=''>
         <option>Select joke category</option>
         <option value="1">Programming</option>
         <option value="2">Misc</option>
