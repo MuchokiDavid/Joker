@@ -2,7 +2,9 @@ import React from 'react'
 
 function JokeDisplay() {
   return (
-    <div>JokeDisplay</div>
+    <div>
+        <h1 className="display-4">Joke of the Day</h1>
+    </div>
   )
 }
 

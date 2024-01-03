@@ -1,8 +1,17 @@
-import React from 'react'
+import React from 'react'   
+import { Button } from 'react-bootstrap';                       
 
 function CategoryDropdown() {
+  const url= 'https://v2.jokeapi.dev/joke/Programming'
+
+  const fetchDataFunc= ()=>{
+    
+  }
+
   return (
-    <div>CategoryDropdown</div>
+    <div>
+      <Button onClick={fetchDataFunc}>Get a joke!</Button>
+    </div>
   )
 }
 
