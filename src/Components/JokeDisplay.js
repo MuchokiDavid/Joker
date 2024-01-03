@@ -26,7 +26,7 @@ function JokeDisplay({joke, setup, delivery}) {
     // Handle the case where none of the expected props are present
     content = (
       <div className='w-full'>
-        <p>No joke available.</p>
+        <p>Select options to view available jokes</p>
       </div>
     );
   }
