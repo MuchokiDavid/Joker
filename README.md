@@ -30,11 +30,11 @@ A React app that fetches and displays random jokes from different categories usi
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/MuchokiDavid/MyJoke.git
+   git clone https://github.com/MuchokiDavid/Joker.git
 
 2. Navigate to the project directory:
     ```bash
-    cd myjoke
+    cd joker
     ```
 3. Install dependencies:
     ```bash
