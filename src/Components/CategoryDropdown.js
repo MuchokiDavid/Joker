@@ -1,7 +1,7 @@
 import React from 'react'   
 import { Button, Form } from 'react-bootstrap';       
 import JokeDisplay from './JokeDisplay';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 function CategoryDropdown() {
   const [selected, setSelected]= useState(null)
